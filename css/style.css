@@ -1,0 +1,86 @@
+body{
+	padding-top: 10px;
+	padding-bottom:10px;
+	background-color: white;
+}
+
+main{
+	font-family: Helvetica;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+
+.container{
+	padding-top:10px;
+	border: 1px solid grey;
+	border-radius: 20px;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.profile-pic{
+	border: 3px solid grey;
+	border-radius: 100px;
+	width: 110px;
+}
+
+.profile-name{
+	font-weight: bold;
+}
+
+.posts{
+	padding-top: 10%;
+}
+
+.followers{
+	padding-top: 10%;
+}
+
+.following{
+	padding-top: 10%;
+}
+
+.btn{
+	font-weight: bold;
+	border: 1px solid black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.bio{
+	padding:10px 10px 0px 10px;
+	line-height: 0.4em;
+	margin:10px;
+}
+
+.pit{
+	display: grid;
+	text-align: center;
+	grid-template-columns: repeat(3, 1fr);
+
+}
+
+.photos{
+	padding-top: 10px;
+	display: grid;
+	grid-template-columns: 3fr 3fr 3fr;
+	grid-gap: 3px;
+}
+
+.footer-images{
+	width: 40px;
+}
+
+.footer{
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
